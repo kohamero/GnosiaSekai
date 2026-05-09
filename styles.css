@@ -33,6 +33,7 @@ body {
   cursor: pointer;
   border-radius: 8px 8px 0 0;
   font-weight: bold;
+  font-family: 'Courier New', monospace;
 }
 
 .tab.active {

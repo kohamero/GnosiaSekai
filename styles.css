@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  color: rgb(97, 97, 93)
+}
+
+#grad1 {
+  background-color: rgb(14, 26, 59); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(14, 26, 59), rgb(75, 63, 115));
+  background-attachment: fixed;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 5px;
+}
+
+.tab:first-child {
+  margin-left: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background: rgb(209, 208, 199);
+  color: rgb(136, 134, 115);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+}
+
+.tab.active {
+  background: rgba(57, 87, 193);
+  color: rgb(210, 220, 253);
+}
+
+/* Card */
+.card {
+  background-color:rgb(242, 239, 232);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Pages */
+.page {
+  display: none;
+}
+
+.page.active {
+  display: flex;
+}
+
+/* Layout */
+.text-content {
+  width: 95%;
+}
+
+.image-box {
+  float: right;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 10px 20px; 
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+  transform: rotate(0deg); /*change later*/
+}
+
+.text-content::after { /*Prevent bugs*/
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Colors */
+.ichika { color: #3b6bd6; }
+.gnosia { color: #d64545; }

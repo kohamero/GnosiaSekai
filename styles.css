@@ -19,6 +19,14 @@ body {
 .tabs {
   display: flex;
   gap: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+.tab:hover { /*if hover*/
+    padding-top: 20px; 
+    margin-top: -10px;
 }
 
 .tab:first-child {
@@ -85,5 +93,4 @@ body {
 }
 
 /* Colors */
-.ichika { color: #3b6bd6; }
 .gnosia { color: #d64545; }

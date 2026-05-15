@@ -78,7 +78,7 @@ body {
 
 /* Layout */
 .text-content {
-  width: 95%;
+  width: 100%;
 }
 
 .image-box {
@@ -104,3 +104,23 @@ body {
 
 /* Colors */
 .gnosia { color: #d64545; }
+.ichika { color : #33AAEE}
+.saki {color : #FFDD45}
+.honami { color : #EE6666}
+.shiho { color : #BBDE22}
+.minori{ color : #FFCDAC}
+.haruka{ color : #99CDFF}
+.airi{ color : #FFA9CC}
+.shizuku{ color : #9AEEDE}
+.kohane{ color : #FF679A}
+.an{ color : #00BBDC}
+.akito{ color : #FF7721}
+.toya{ color : #0077DD}
+.tsukasa{ color : #FFBB00}
+.emu{ color : #FF66BC}
+.nene{ color : #34DD9A}
+.rui{ color : #BB88ED}
+.kanade{ color : #BB6588}
+.mafuyu{ color : #8889CC}
+.ena{ color : #CCAA87}
+.mizuki{ color : #E4A8CA}
